@@ -22,7 +22,6 @@ print(z)
 #Using the "input" method in Python, ask a user to input a sentence. Then develop a function that accepts a the user input and will tell you how many words are in that string##
 a = ["I am good"]
 def count_words(a):
-    input("I am good")
 
 day_of_week = input("what day is it? ")
 if day_of_week == "Friday":
