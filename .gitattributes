@@ -30,7 +30,7 @@ if x <10:
 elif x == 10:
     print("Equal")
 else:
-    print("Greter than 10")
+    print("Greater than 10")
 
 students = ["Cadee", "Mason", "Andy", "Alina"]
 for students in students:
