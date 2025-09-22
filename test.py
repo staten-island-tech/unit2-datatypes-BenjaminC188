@@ -67,6 +67,11 @@ def bill(x):
      print(bill * 1.25)
 
 x = 100
+tip = "bad"
+
+print(tip)
+
+
 
 
 
