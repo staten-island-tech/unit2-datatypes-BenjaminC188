@@ -49,8 +49,24 @@ elif temp == 68:
 else:
     print("cold)"""
 
-even = (even numbers)
-odd = even + 1
-if number % 2 == 0:
-    print
+def oddoreven(number):
+    if number % 2 == 0:
+        print("even")
+    else:
+        print("odd")
+
+def bill(x):
+    tip = input("bad, okay, good, great")
+    if tip == "bad":
+     print(bill * 1)
+    elif tip == "okay":
+     print(bill * 1.15)
+    elif tip == "good":
+     print(bill * 1.20)
+    elif tip == "great":
+     print(bill * 1.25)
+
+x = 100
+
+
 
