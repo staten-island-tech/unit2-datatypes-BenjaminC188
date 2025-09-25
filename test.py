@@ -68,6 +68,7 @@ elif tip == "great":
      print(bill * 1.25)"""
 
 input = 10
+input / 1-input
 
 
 
