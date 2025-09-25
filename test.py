@@ -49,27 +49,27 @@ elif temp == 68:
 else:
     print("cold)"""
 
-def oddoreven(number):
-    if number % 2 == 0:
+"""def oddoreven(x):
+    if x % 2 == 0:
         print("even")
     else:
-        print("odd")
+        print("odd")"""
 
-def bill(x):
-    tip = input("bad, okay, good, great")
-    if tip == "bad":
-     print(bill * 1)
-    elif tip == "okay":
-     print(bill * 1.15)
-    elif tip == "good":
-     print(bill * 1.20)
-    elif tip == "great":
-     print(bill * 1.25)
+"""bill = 10
 
-x = 100
 tip = "bad"
+if tip == "bad":
+     print(bill * 1)
+elif tip == "okay":
+     print(bill * 1.15)
+elif tip == "good":
+     print(bill * 1.20)
+elif tip == "great":
+     print(bill * 1.25)"""
 
-print(tip)
+input = 10
+
+
 
 
 
