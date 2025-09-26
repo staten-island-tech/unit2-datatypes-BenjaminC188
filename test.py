@@ -67,11 +67,25 @@ elif tip == "good":
 elif tip == "great":
      print(bill * 1.25)"""
 
-input = 10
-input / 1-input
+"""def gcf(x):
+    if x == 0:
+        return []
+    factors = []
+    for i in range(1, abs(x) + 1):
+        if x % i == 0:
+            factors.append(i)
+    return factors
+
+print(gcf(120))"""
 
 
-
+"""def gcf(x, y):
+    if x == 0 or y == 0:
+        return None
+    while y:
+        x, y = y, x % y
+    return abs(x)
+print(gcf(393, 131))"""
 
 
 
