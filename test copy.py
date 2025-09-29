@@ -1,3 +1,3 @@
 
 def NumberGuessingGame():
-    
+    import random
