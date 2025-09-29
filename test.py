@@ -64,26 +64,23 @@ elif tip == "good":
 elif tip == "great":
      print(bill * 1.25)"""
 
-
-
-"""def factors (x):
-    if x == 10:
-        print[10,5,2,1]"""
-
-
-
-
-def factors(x):
+"""def factors(x):
     if x == 0:
         print("None")
     for i in range(1, x + 1):
         if x % i == 0:
             print(i)
-factors(120)
+factors(120)"""
 
 
 
-
-
-
+def GCF(x, y):
+    if x == 0 or y == 0:
+        print("No GCF")
+    elif x == 1 or y == 1:
+        print("1")
+    for i in range(1, min(x, y) + 1):
+        if x % i == 0 and y % i == 0:
+            print(i)
+GCF(12,18)
 
