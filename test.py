@@ -28,9 +28,6 @@ def count_words(a):
     else:
         print("error")
 count_words(a)"""
-
-    
-    
     
 
 """day_of_week = input("what day is it?")
@@ -67,25 +64,24 @@ elif tip == "good":
 elif tip == "great":
      print(bill * 1.25)"""
 
-"""def gcf(x):
-    if x == 0:
-        return []
-    factors = []
-    for i in range(1, abs(x) + 1):
-        if x % i == 0:
-            factors.append(i)
-    return factors
-
-print(gcf(120))"""
 
 
-"""def gcf(x, y):
-    if x == 0 or y == 0:
-        return None
-    while y:
-        x, y = y, x % y
-    return abs(x)
-print(gcf(393, 131))"""
+"""def factors (x):
+    if x == 10:
+        print[10,5,2,1]"""
+
+
+
+
+
+def gcf(x,y):
+    if x or y == 0:
+        print("No GCF")
+    elif y == x:
+        print(1,x)
+    elif y is 
+
+
 
 
 
