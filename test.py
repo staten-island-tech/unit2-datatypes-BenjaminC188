@@ -67,7 +67,7 @@ elif tip == "great":
 """def factors(x):
     if x == 0:
         print("None")
-    for i in range(1, x + 1):
+    for i in range(2, x ):
         if x % i == 0:
             print(i)
 factors(120)"""
@@ -79,7 +79,7 @@ def GCF(x, y):
         print("No GCF")
     elif x == 1 or y == 1:
         print("1")
-    for i in range(1, min(x, y) + 1):
+    for i in range(2, min(x, y)):
         if x % i == 0 and y % i == 0:
             print(i)
 GCF(12,18)
