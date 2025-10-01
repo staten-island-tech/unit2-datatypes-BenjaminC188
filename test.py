@@ -81,6 +81,7 @@ def GCF(x, y):
         print("1")
     for i in range(2, min(x, y)):
         if x % i == 0 and y % i == 0:
-            print(i)
+            gcf = i
+    print(gcf)
 GCF(12,18)
 
