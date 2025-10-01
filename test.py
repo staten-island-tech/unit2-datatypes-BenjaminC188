@@ -75,11 +75,14 @@ elif tip == "great":
 
 
 def gcf(x,y):
-    if x or y == 0:
-        print("No GCF")
-    elif y == x:
-        print(1,x)
-    elif y is 
+    if x == 0 or y == 0:
+        print("No GCF") 
+    elif x == 1 or y == 1:
+        print("1")
+    for i in range(1, min(x,y)+1):
+        x % i == 0 and y % i == 0
+        i = gcf
+print(gcf(10,20))
 
 
 
