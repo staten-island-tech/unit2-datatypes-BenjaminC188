@@ -83,4 +83,4 @@ def GCF(x, y):
         if x % i == 0 and y % i == 0:
             gcf = i
     print(gcf)
-GCF(12,18)
+GCF(48,120)
